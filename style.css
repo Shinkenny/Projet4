@@ -100,11 +100,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255, .85);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, 1);
 }
 
 .d-bloc .icon-round,
@@ -737,6 +737,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .portfolio-thumb {
@@ -776,11 +777,13 @@ h4 {
 
 .tc-white {
     color: #F3976C!important;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #FFFFFF!important;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .btn-atomic-tangerine:hover {
@@ -827,7 +830,7 @@ h4 {
 
 .footer_space
 {
-    padding-bottom: 2px;
+    padding-bottom: 5px;
 }
 
 
