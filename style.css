@@ -825,6 +825,12 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+.footer_space
+{
+    padding-bottom: 2px;
+}
+
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
