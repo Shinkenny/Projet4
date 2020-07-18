@@ -736,8 +736,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
-    text-shadow: 1px 1px 1px #000000;
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -782,8 +781,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
-    text-shadow: 1px 1px 1px #000000;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -830,7 +828,7 @@ h4 {
 
 .footer_space
 {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 
