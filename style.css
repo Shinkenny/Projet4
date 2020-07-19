@@ -831,6 +831,11 @@ h4 {
     padding-bottom: 10px;
 }
 
+.citation_mobile
+{
+    width: 80%;
+    margin: auto;  
+}
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1035,10 +1040,21 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .social
+    {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .img_mobile
+    {
+        display: none;
     }
 }
 
