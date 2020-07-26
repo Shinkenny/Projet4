@@ -13,11 +13,6 @@ button {
     outline: none!important;
 }
 
-a:hover {
-    text-decoration: none;
-    cursor: pointer;
-}
-
 .bloc {
     width: 100%;
     clear: both;
@@ -437,24 +432,6 @@ button {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
 
-.panel-sq,
-.panel-sq .panel-heading,
-.panel-sq .panel-footer {
-    border-radius: 0;
-}
-
-.panel-rd {
-    border-radius: 30px;
-}
-
-.panel-rd .panel-heading {
-    border-radius: 29px 29px 0 0;
-}
-
-.panel-rd .panel-footer {
-    border-radius: 0 0 29px 29px;
-}
-
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
@@ -511,46 +488,8 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
-#lightbox-modal {
-    display: flex;
-    align-items: center;
-}
-
-#lightbox-modal .modal-dialog {
-    width: 90%;
-    max-width: 900px;
-    margin: 0 auto 0;
-}
-
-#lightbox-modal .modal-dialog img {
-    max-height: 90vh;
-    margin: 0 auto;
-}
-
-.lightbox-caption {
-    padding: 20px;
-    color: #FFF;
-    background: rgba(0, 0, 0, .5);
-    position: absolute;
-    left: 15px;
-    right: 15px;
-    bottom: 5px;
-}
-
-.snapshot-lb .modal-body {
-    padding-bottom: 45px;
-}
-
-.snapshot-lb .lightbox-caption {
-    padding: 0;
-    color: rgba(0, 0, 0, .5);
-    background: none;
-}
-
 h1,
 h2,
-h3,
-h4,
 h5,
 h6,
 p,
@@ -580,12 +519,6 @@ p {
     margin: auto auto auto auto;
 }
 
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
-    font-display: swap;
-}
-
 .cta-hero {
     margin-top: 22px;
     color: #FFFFFF!important;
@@ -605,13 +538,6 @@ h2 {
     line-height: 1.4em;
 }
 
-h3 {
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
-}
-
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
@@ -619,10 +545,6 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
-}
-
-h4 {
     color: #333333!important;
 }
 
@@ -722,6 +644,25 @@ h4 {
 {
     width: 80%;
     margin: auto;  
+}
+
+.fa-instagram:before 
+{
+    content: "\f16d"
+}
+
+.fa-twitter-square:before 
+{
+    content: "\f081"
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+    content: "\f09a"
+}
+
+.fa-dribbble:before {
+    content: "\f17d"
 }
 
 @media (min-width: 768px) {
