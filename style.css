@@ -89,22 +89,6 @@ button {
     color: rgba(255, 255, 255, .85);
 }
 
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
-}
-
-.d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
-}
-
 .d-bloc .a-btn,
 .d-bloc .navbar a,
 .d-bloc .navbar-brand,
@@ -463,31 +447,6 @@ a[data-lightbox] {
     text-align: center;
 }
 
-a[data-lightbox]:hover::before {
-    content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
-    font-display: swap;
-    font-size: 32px;
-    width: 50px;
-    height: 50px;
-    margin-left: -25px;
-    border-radius: 50%;
-    background: rgba(0, 0, 0, .6);
-    color: #FFF;
-    font-weight: 100;
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-}
-
-a[data-lightbox]:hover img {
-    opacity: 0.6;
-    -webkit-animation-fill-mode: none;
-    animation-fill-mode: none;
-}
-
 h1,
 h2,
 h5,
@@ -554,7 +513,8 @@ h1 {
 }
 
 .white {
-    color: black!important;
+    color: white!important;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .portfolio-thumb {
@@ -595,7 +555,8 @@ h1 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: black!important;
+    color: white!important;
+    text-shadow: 1px 1px 1px #000000;
 }
 
 .btn-atomic-tangerine:hover {
