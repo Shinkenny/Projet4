@@ -6,25 +6,31 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	    <meta name="robots" content="index, follow">
 
-	    <link rel="shortcut icon" type="image/png" href="favicon.jpg">	    
+	    <link rel="shortcut icon" type="image/webp" href="favicon.webp">	    
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="preload" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" media="all">
+		<link rel="preload" href="style-min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="stylesheet" href="style-min.css"></noscript>
 		<link rel="stylesheet" type="text/css" href="style-min.css">
+		<link rel="preload" href="./css/et-line-min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+		<noscript><link rel="./css/et-line-min.css" href="style-min.css"></noscript>
 		<link rel="stylesheet" type="text/css" href="./css/et-line-min.css">
 
-	    <title>La chouette agence</title>
-	<!-- Analytics -->	 
-	<!-- Analytics END -->   
+	    <title>Accueil</title> 
 	</head>
 
 	<body>
 	<!-- Principal conteneur -->
 		<div class="page-container">		    
 			<!-- bloc-0 -->
-			<div class="bloc bgc-white l-bloc " id="bloc-0">
+			<header class="bloc bgc-white l-bloc " id="bloc-0">
 				<div class="container bloc-sm">
 					<nav class="navbar row">
 						<div class="navbar-header">
-							<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="La chouette agence" /></a>
+							<a class="navbar-brand" href="index.html">
+								<img src="img/la-chouette-agence.png" alt="La chouette agence" />
+							</a>
 							<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
 								<span class="sr-only">Toggle navigation</span>
 							</button>
@@ -35,25 +41,25 @@
 									<a href="index.html">Accueil</a>
 								</li>
 								<li>
-									<a href="page2.html">Contact</a>
+									<a href="contact.html">Contact</a>
 								</li>
 							</ul>
 						</div>
 					</nav>
 				</div>
-			</div>
+			</header>
 			<!-- bloc-0 END -->
 			<!-- bloc-1-presentation -->
 			<div class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace">
 						<div class="col-sm-12">
-							<img src="img/logo.png" class="center-block" alt="Logo de l'agence" />
+							<img src="img/logo.png" width="100" height="100" class="center-block" alt="Logo de l'agence" />
 							<h1 class="text-center hero-bloc-text tc-white ">
-								La chouette agence.
+								La chouette agence
 							</h1>
 							<div class="text-center">
-								<a href="page2.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
+								<a href="contact.html" class="btn btn-lg btn-clean btn-rd cta-hero btn-atomic-tangerine" id="cta-hero">Contact</a>
 							</div>
 						</div>
 					</div>
@@ -120,7 +126,7 @@
 								Nous souhaitons aider les entreprises de la région Lyonnaise à se développer et à connaître le succès. Nous travaillons pour aider les entreprises locales à attirer de nouveaux clients.<br>
 							</h2>
 							<p class="text-center white">
-								Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locales, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beaux et bien structurés, qui seront facilement trouvables sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="page2.html">Contactez notre équipe</a><br>
+								Nous aimons collaborer avec des entrepreneurs créatifs et des entreprises locales, qu’elles aient besoin de créer un site de A à Z ou de donner un coup de jeune à leur site. Que vous ayez besoin d’une identité visuelle complète ou d’une refonte de votre site, n’hésitez pas à nous contacter. Nous travaillerons ensemble pour créer des sites beaux et bien structurés, qui seront facilement trouvables sur les moteurs de recherche. <br><br><a class="ltc-white bold-link" href="contact.html">Contactez notre équipe</a><br>
 							</p>
 						</div>
 					</div>
@@ -186,7 +192,7 @@
 							Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 						</h2>
 						<div class="col-sm-12 text-center">
-							<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
+							<a href="contact.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Contact</a>
 						</div>
 					</div>
 				</div>
@@ -230,6 +236,10 @@
 		</div>
 		<!-- Principal conteneur END -->
 
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" defer></script>
+		<script src="./js/blocs.js" defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js" integrity="sha512-BNs09vwMdfabwyH36BehO8DJbV5S6RaO0vXqPqiMhYC8mZ4WsfwwPEVhMOl5D7gyrTSDDv98f3HgaOUDlFhywg==" crossorigin="anonymous" defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.25/gmaps.min.js" integrity="sha512-gauu0VKZq9ry8hOZHgNpcB2ogbSDojs+XLDItpOLY0IyA+KigeuT/suwSdPgfU/TGYLAn4Nan4OeaCa/UPr70Q==" crossorigin="anonymous" defer></script>
 		<script src="https://kit.fontawesome.com/5ffdd1bc31.js" crossorigin="anonymous" defer></script>	   
 	</body>
 </html>
