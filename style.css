@@ -630,25 +630,6 @@ h1 {
     margin: auto;  
 }
 
-.fa-instagram:before 
-{
-    content: "\f16d"
-}
-
-.fa-twitter-square:before 
-{
-    content: "\f081"
-}
-
-.fa-facebook-f:before,
-.fa-facebook:before {
-    content: "\f09a"
-}
-
-.fa-dribbble:before {
-    content: "\f17d"
-}
-
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
