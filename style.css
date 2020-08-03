@@ -479,7 +479,6 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-display: swap;
     font-weight: 400;
     color: #575757!important;
 }
@@ -536,7 +535,7 @@ h1 {
 }
 
 .white {
-    color: white!important;
+    color: #FFFFFF!important;
     text-shadow: 1px 1px 1px #000000;
 }
 
@@ -572,13 +571,13 @@ h1 {
 }
 
 .tc-white {
-    color: #white!important;
+    color: #FFFFFF!important;
     text-shadow: 1px 1px 1px #000000;
 }
 
 .btn-atomic-tangerine {
     background: #8e5841;
-    color: white!important;
+    color: #FFFFFF!important;
     text-shadow: 1px 1px 1px #000000;
 }
 
