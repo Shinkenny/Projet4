@@ -629,6 +629,11 @@ h1 {
     margin: auto;  
 }
 
+.repere:focus
+{
+    border: solid black 1px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
